@@ -126,6 +126,7 @@ public class IabPurchase {
         detailsJson.put("productType", getProductType());
         detailsJson.put("purchaseTime", getPurchaseTime());
         detailsJson.put("purchaseId", getOrderId());
+        detailsJson.put("purchaseToken", getPurchaseToken());
         detailsJson.put("quantity", getQuantity());
         detailsJson.put("verified", getPurchaseVerified());
         detailsJson.put("pending", getPending());
